@@ -7,11 +7,8 @@ let userAxios=axios.create({
 const getUsersAxios = () => {
     return userAxios.get()
 }
-const getUserAxios=(f)=>{
-    return userAxios.get('/'+f)
-}
 const getUserPosts=(id)=>{
     return userAxios.get('/'+id+'/posts')
 }
-export {getUserAxios,getUsersAxios,getUserPosts}
+export {getUsersAxios,getUserPosts}
 

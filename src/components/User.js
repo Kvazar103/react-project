@@ -1,6 +1,6 @@
 
 export default function User(props){
-    let {users,lift,liftPost,posts,idLift}= props
+    let {users,idLift}= props
 
     return(<div>
         {users.name}
