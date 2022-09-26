@@ -1,7 +1,8 @@
 import {useEffect, useState} from "react";
+
 import {userService} from "../../services/user.serivce";
-import {User} from "../User/User";
 import {postService} from "../../services/post.service";
+import {User} from "../User/User";
 import {Post} from "../Post/Post";
 
 
