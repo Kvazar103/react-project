@@ -1,8 +1,8 @@
-import {AxiosService} from "./axios.service";
+import {axiosService} from "./axios.service";
 import {urls} from "../configs";
 
 const userService = {
-  getUsers:()=>AxiosService.get(urls.users)
+  getUsers:()=>axiosService.get(urls.users)
 }
 
 export {
