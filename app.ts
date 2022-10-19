@@ -1,4 +1,9 @@
 
+
+
+
+
+// 2) протипізувати функції:
 interface IUser {
     name:string,
     age:number,
