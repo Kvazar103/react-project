@@ -1,8 +1,4 @@
 
-
-
-
-
 // 2) протипізувати функції:
 interface IUser {
     name:string,
@@ -20,11 +16,11 @@ function sum(a: number, b: number): number {
     return a + b;
 }
 
-function showSum(a:number,b:number){
+function showSum(a:number,b:number):void{
     console.log(a+b)
 }
 
-function incAge(someUser:IUser,inc:number):object{
+function incAge(someUser:IUser,inc:number):IUser{
     someUser.age+=inc
     return someUser
 }
